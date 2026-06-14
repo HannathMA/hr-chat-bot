@@ -1,0 +1,15 @@
+{
+  "venvPath": ".",
+  "venv": ".venv",
+  "extraPaths": ["ai-app", "backend"],
+  "executionEnvironments": [
+    {
+      "root": "ai-app",
+      "extraPaths": []
+    },
+    {
+      "root": "backend",
+      "extraPaths": ["backend"]
+    }
+  ]
+}
